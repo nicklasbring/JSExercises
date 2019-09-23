@@ -28,3 +28,21 @@ for(i = 0; i < 100; i++){
 //Exercise 3
 console.log('');
 console.log('This is exercise 3');
+var chessBoard = ' ';
+for(i = 0; i < 8; i++){
+    for(j = 0; j < 8; j++){
+        if((i + j) % 2 === 0){
+            chessBoard += ' '; 
+        }
+        else{
+            chessBoard += '#';
+        }
+    }
+    chessBoard += "\n";
+}
+console.log(chessBoard);
+
+
+//Exercise 4
+console.log('');
+console.log('This is exercise 4');
