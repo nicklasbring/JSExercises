@@ -46,3 +46,9 @@ console.log(chessBoard);
 //Exercise 4
 console.log('');
 console.log('This is exercise 4');
+
+
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
