@@ -47,8 +47,18 @@ console.log(chessBoard);
 console.log('');
 console.log('This is exercise 4');
 
-
+function min(a, b){
+    if(a < b){
+        console.log(a);
+    } else console.log(b);
+}
+//To show that my function works
 console.log(min(0, 10));
-// → 0
 console.log(min(0, -10));
-// → -10
+console.log(min(0, 1000));
+console.log(min(23844, 398478));
+
+
+
+
+
